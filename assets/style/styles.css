@@ -2014,13 +2014,21 @@ body {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .section2 .project-container .project a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
   .section2 .project-container .project .image-container {
     position: relative;
     width: 70%;
   }
   .section2 .project-container .project .project-description {
     margin: 7rem 0 0 4rem;
-    width: 10rem;
+    width: 13rem;
   }
   .section2 .project-container .project .project-description .project-role {
     display: block;
