@@ -41,6 +41,34 @@ body{
             top:0;
             width:100%;
             height:100vh;
+            
+            .times-icon{
+                color: white;
+                font-size: 1.5rem;
+                padding: 0.5rem 0 0 1rem;
+            }
+
+            .side-nav-container{
+
+                .side-navlist{
+                    position: relative;
+                    margin:0 auto;
+                    width:80%;
+                    text-align: center;
+
+                    li{ 
+                        padding:1rem 0;
+
+                        a{  
+                            color: white;
+                            font-family: $paragraph;
+                            font-weight: bold;
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+
+            }
         }
 
         .topnav{
@@ -578,7 +606,6 @@ body{
                 .title{
                     padding-top:10rem;
                     padding-left:2.5rem;
-                    border: solid yellow thin;
                     background-color:rgb(238, 238, 238);
 
                     h1{
@@ -599,7 +626,7 @@ body{
                     width:50%;
                     padding-top: 50%; /* 1:1 Aspect Ratio */ 
                     border-radius: 10rem;
-                    background-image: url("https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg");
+                    background-image: url(../img/pho.jpg);
                     //background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85)), url("https://mullerexteriors.com/wp-content/uploads/2017/02/types-of-roofing-material.jpg");
                     background-position: 70% 100%;
                     background-size:cover;
@@ -839,13 +866,41 @@ body{
                 padding:0.5rem 0 0 1rem;
             }
         }
+
         .side-menu{
-            background-color:white;
+            background-color:#2f9c9a;
             position:fixed;
             top:0;
             width:100%;
             height:100vh;
+            
+            .times-icon{
+                color: white;
+                font-size: 1.5rem;
+                padding: 0.5rem 0 0 1rem;
+            }
 
+            .side-nav-container{
+
+                .side-navlist{
+                    position: relative;
+                    margin:0 auto;
+                    width:80%;
+                    text-align: center;
+
+                    li{ 
+                        padding:1rem 0;
+
+                        a{  
+                            color: white;
+                            font-family: $paragraph;
+                            font-weight: bold;
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+
+            }
         }
 
         .topnav{
@@ -1406,7 +1461,7 @@ body{
                             width:50%;
                             padding-top: 50%; /* 1:1 Aspect Ratio */ 
                             border-radius: 100rem;
-                            background-image: url("https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg");
+                            background-image: url(../img/pho.jpg);
                             //background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85)), url("https://mullerexteriors.com/wp-content/uploads/2017/02/types-of-roofing-material.jpg");
                             background-position: 70% 100%;
                             background-size:cover;
@@ -1636,6 +1691,29 @@ body{
 
 @media only screen and (min-width: 768px) {
 
+    header{
+        .side-menu{
+
+            .side-nav-container{
+    
+                .side-navlist{
+                    padding-top:4rem;
+                    li{ 
+                        padding:1rem 0;
+    
+                        a{  
+                            color: white;
+                            font-family: $paragraph;
+                            font-weight: bold;
+                            font-size: 2rem;
+                        }
+                    }
+                }
+    
+            }
+        }
+    }
+
     .section1{
         
         .area{
@@ -1813,7 +1891,7 @@ body{
                                 width:50%;
                                 padding-top: 50%; /* 1:1 Aspect Ratio */ 
                                 border-radius: 100rem;
-                                background-image: url("https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg");
+                                background-image: url(../img/pho.jpg);
                                 //background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85)), url("https://mullerexteriors.com/wp-content/uploads/2017/02/types-of-roofing-material.jpg");
                                 background-position: 70% 100%;
                                 background-size:cover;
@@ -2315,7 +2393,7 @@ body{
                                     width:50%;
                                     padding-top: 50%; /* 1:1 Aspect Ratio */ 
                                     border-radius: 100rem;
-                                    background-image: url("https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg");
+                                    background-image: url(../img/pho.jpg);
                                     //background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85)), url("https://mullerexteriors.com/wp-content/uploads/2017/02/types-of-roofing-material.jpg");
                                     background-position: 70% 100%;
                                     background-size:cover;

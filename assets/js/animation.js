@@ -70,10 +70,10 @@ $(function(){
     //sticky menu
     let headerOffset = $('.topnav').offset().top;
     let scrollTopValue = $(document).scrollTop();
-    console.log('scroll top value is '+scrollTopValue)
+    //console.log('scroll top value is '+scrollTopValue)
 
         var scrollTop = $(document).scrollTop()+1000;
-        console.log(s2)
+        //console.log(s2)
 
         var progress = (scrollTop - s3TextArea+2000)/20000
         var progressTwo = (scrollTop - s3TextArea+2000)/1500

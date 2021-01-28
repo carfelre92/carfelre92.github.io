@@ -34,6 +34,26 @@ body {
     width: 100%;
     height: 100vh;
   }
+  header .side-menu .times-icon {
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 0 0 1rem;
+  }
+  header .side-menu .side-nav-container .side-navlist {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+  }
+  header .side-menu .side-nav-container .side-navlist li {
+    padding: 1rem 0;
+  }
+  header .side-menu .side-nav-container .side-navlist li a {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
   header .topnav {
     display: none;
   }
@@ -564,7 +584,6 @@ body {
   .about-section1 .area .title-container .title {
     padding-top: 10rem;
     padding-left: 2.5rem;
-    border: solid yellow thin;
     background-color: #eeeeee;
   }
   .about-section1 .area .title-container .title h1 {
@@ -583,7 +602,7 @@ body {
     padding-top: 50%;
     /* 1:1 Aspect Ratio */
     border-radius: 10rem;
-    background-image: url("https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg");
+    background-image: url(../img/pho.jpg);
     background-position: 70% 100%;
     background-size: cover;
     -webkit-box-shadow: 2px 3px 0px 5px rgba(0, 0, 0, 0.23);
@@ -768,11 +787,31 @@ body {
     padding: 0.5rem 0 0 1rem;
   }
   header .side-menu {
-    background-color: white;
+    background-color: #2f9c9a;
     position: fixed;
     top: 0;
     width: 100%;
     height: 100vh;
+  }
+  header .side-menu .times-icon {
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 0 0 1rem;
+  }
+  header .side-menu .side-nav-container .side-navlist {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+  }
+  header .side-menu .side-nav-container .side-navlist li {
+    padding: 1rem 0;
+  }
+  header .side-menu .side-nav-container .side-navlist li a {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
   }
   header .topnav {
     display: none;
@@ -1337,7 +1376,7 @@ body {
     padding-top: 50%;
     /* 1:1 Aspect Ratio */
     border-radius: 100rem;
-    background-image: url("https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg");
+    background-image: url(../img/pho.jpg);
     background-position: 70% 100%;
     background-size: cover;
     -webkit-box-shadow: 2px 3px 0px 5px rgba(0, 0, 0, 0.23);
@@ -1516,6 +1555,18 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+  header .side-menu .side-nav-container .side-navlist {
+    padding-top: 4rem;
+  }
+  header .side-menu .side-nav-container .side-navlist li {
+    padding: 1rem 0;
+  }
+  header .side-menu .side-nav-container .side-navlist li a {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+  }
   .section1 .area .intro-text {
     margin: 0 auto;
     max-width: 48rem;
@@ -1650,7 +1701,7 @@ body {
     padding-top: 50%;
     /* 1:1 Aspect Ratio */
     border-radius: 100rem;
-    background-image: url("https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg");
+    background-image: url(../img/pho.jpg);
     background-position: 70% 100%;
     background-size: cover;
     -webkit-box-shadow: 2px 3px 0px 5px rgba(0, 0, 0, 0.23);
@@ -2086,7 +2137,7 @@ body {
     padding-top: 50%;
     /* 1:1 Aspect Ratio */
     border-radius: 100rem;
-    background-image: url("https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg");
+    background-image: url(../img/pho.jpg);
     background-position: 70% 100%;
     background-size: cover;
     -webkit-box-shadow: 2px 3px 0px 5px rgba(0, 0, 0, 0.23);
