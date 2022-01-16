@@ -327,11 +327,12 @@ body {
   .section2 .project-container .project .image-container .image-one {
     position: relative;
     z-index: 1;
-    background-color: purple;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 16rem;
     height: 9rem;
+    -webkit-box-shadow: 5px 3px 10px 2px rgba(0, 0, 0, 0.45);
+    box-shadow: 5px 3px 10px 2px rgba(0, 0, 0, 0.45);
   }
   .section2 .project-container .project .image-container .image-one img {
     width: 100%;
@@ -342,11 +343,12 @@ body {
     z-index: 0;
     top: 2rem;
     left: 2rem;
-    background-color: red;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 16rem;
     height: 9rem;
+    -webkit-box-shadow: 5px 3px 10px 2px rgba(0, 0, 0, 0.45);
+    box-shadow: 5px 3px 10px 2px rgba(0, 0, 0, 0.45);
   }
   .section2 .project-container .project .image-container .image-two img {
     width: 100%;
@@ -1091,12 +1093,13 @@ body {
     position: relative;
     top: 0;
     z-index: 1;
-    background-color: purple;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 80%;
     padding-top: 45%;
     /* 16:9 Aspect Ratio */
+    -webkit-box-shadow: 5px 3px 10px 2px rgba(0, 0, 0, 0.45);
+    box-shadow: 5px 3px 10px 2px rgba(0, 0, 0, 0.45);
   }
   .section2 .project-container .project .image-container .image-one img {
     position: absolute;
@@ -1109,7 +1112,8 @@ body {
     z-index: 0;
     top: 5rem;
     right: 0rem;
-    background-color: red;
+    -webkit-box-shadow: 5px 3px 10px 2px rgba(0, 0, 0, 0.45);
+    box-shadow: 5px 3px 10px 2px rgba(0, 0, 0, 0.45);
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 80%;
@@ -1612,10 +1616,12 @@ body {
     font-family: "Josefin Slab", serif;
     font-weight: 600;
     color: #dfdfdf;
+    text-shadow: 2px 2px 8px #000000;
   }
   .section2 .project-container .project .project-description .project-role {
     display: none;
     color: #dfdfdf;
+    text-shadow: 2px 2px 8px #000000;
   }
   .section2 .wave-container {
     background-color: #3c75c0;
